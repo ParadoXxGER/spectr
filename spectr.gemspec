@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'spectr'
-  s.version     = '0.07'
+  s.version     = '0.0.7'
   s.date        = '2017-12-08'
   s.summary     = 'Micro unit test framework'
   s.description = 'Micro unit test framework'
