@@ -19,11 +19,15 @@ OptionParser.new do |parser|
 
 end.parse!
 
-if ARGV.length == 0
+if ARGV.length.zero?
   puts "INFO: No path specified!"
   exit 1
 end
 
-Dir.glob(File.join(ARGV[0])).each do |spec|
-  load spec
+ARGV.each do |spec|
+  if spec.include?('_spectr.rb')
+    load spec
+  else
+    puts "INFO: Not a spectr file, skipping: #{spec}"
+  end
 end
