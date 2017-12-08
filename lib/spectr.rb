@@ -1,5 +1,4 @@
 class Spectr
-
   def test(description)
     @description = description
     puts "INFO: #{description}"
@@ -30,5 +29,4 @@ class Spectr
       @abort = true
     end
   end
-
 end
