@@ -27,8 +27,9 @@ Example spec: (examples/integer_spectr.rb)
 Note: Spectr files must end with `_spectr.rb`
 
 ```
-Spectr.new.test 'Test the builtin Integer class' do |test|
+require 'spectr'
 
+Spectr.new.test 'Test the builtin Integer class' do |test|
   int = 1
 
   test.assume('int inherits from Integer', true) do
@@ -42,8 +43,8 @@ Spectr.new.test 'Test the builtin Integer class' do |test|
   test.assume('addition works', 2) do
     int + 1
   end
-
 end
+
 ```
 
 Usage `spectr PATH`:
