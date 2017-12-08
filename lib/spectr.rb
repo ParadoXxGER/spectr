@@ -2,7 +2,7 @@ class Spectr
 
   def test(description)
     @description = description
-    puts "INFO: Test #{description}"
+    puts "INFO: #{description}"
     yield self
     self
   end
@@ -23,9 +23,9 @@ class Spectr
 
   def compare
     if @result.eql? @expected_result
-      puts "     GREEN: Assume: #{@assumption}"
+      puts "     GREEN: #{@assumption}"
     else
-      puts "     RED: Assume: #{@assumption}"
+      puts "     RED: #{@assumption}"
       puts "          Expected #{@expected_result.inspect} but got #{@result.inspect}"
       @abort = true
     end
