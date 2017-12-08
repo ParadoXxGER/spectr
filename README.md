@@ -20,7 +20,7 @@ gem 'spectr' ~> '0.0.0'
 Example spec:
 
 ```
-Spectr.test.new 'Test the builtin Integer class' do |test|
+Spectr.new.test 'Test the builtin Integer class' do |test|
 
   int = 1
 
