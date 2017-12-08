@@ -42,6 +42,5 @@ end
 Usage `spectr PATH`:
 
 ```
-spectr . # Will execute all tests in the current dir
-spectr examples/* # Will execute all tests within all subdirectorys
+spectr examples/* # Will execute all tests within examples
 ```
