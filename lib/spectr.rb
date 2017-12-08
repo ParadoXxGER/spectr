@@ -1,4 +1,4 @@
-class Spectre
+class Spectr
 
   def test(description)
     @description = description
