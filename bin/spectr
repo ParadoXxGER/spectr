@@ -1,6 +1,29 @@
 #!/usr/bin/env ruby
 
+require 'optparse'
+
 # Usage: spectr .
 # Usage: spectr test/**
 # Usage: spectr test/*.rb
 
+# This will hold the options we parse
+options = {}
+
+OptionParser.new do |parser|
+
+  # Whenever we see -n or --name, with an
+  # argument, save the argument.
+  parser.on("-ff", "--fail-fast", "Enable fail fast") do |v|
+    options[:name] = v
+  end
+
+end.parse!
+
+if ARGV.length == 0
+  puts "INFO: No path specified!"
+  exit 1
+end
+
+Dir.glob(File.join(ARGV[0])).each do |spec|
+  load spec
+end
