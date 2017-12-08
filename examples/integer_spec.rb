@@ -1,4 +1,6 @@
-Spectr.test.new 'Test the builtin Integer class' do |test|
+require_relative '../lib/spectr'
+
+Spectr.new.test 'Test the builtin Integer class' do |test|
 
   int = 1
 
