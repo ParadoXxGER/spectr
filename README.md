@@ -2,6 +2,7 @@
 
 ## Micro unit test framework 
 Source: https://rubygems.org/gems/spectr
+
 [![Gem Version](https://badge.fury.io/rb/spectr.svg)](https://badge.fury.io/rb/spectr)
 
 Installation:
