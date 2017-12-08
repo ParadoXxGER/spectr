@@ -1,0 +1,6 @@
+#!/bin/env/ruby
+
+# Usage: spectre .
+# Usage: spectre test/**
+# Usage: spectre test/*.rb
+
