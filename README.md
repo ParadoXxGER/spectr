@@ -5,6 +5,8 @@ Source: https://rubygems.org/gems/spectr
 
 [![Gem Version](https://badge.fury.io/rb/spectr.svg)](https://badge.fury.io/rb/spectr)
 
+The goal is to provide a simple and fast testing 'framework' for plain ruby apps.
+ 
 Installation:
 
 Plain:
