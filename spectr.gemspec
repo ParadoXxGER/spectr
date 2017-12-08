@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Niklas Hanft']
   s.email       = 'niklas.hanft@outlook.com'
   s.files       = ['lib/', 'modules/', 'examples/', 'bin/', 'README.md']
+  s.executables = ["spectr"]
   s.homepage    =
     'http://rubygems.org/gems/spectr'
   s.license       = 'MIT'
