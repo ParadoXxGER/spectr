@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.email       = 'niklas.hanft@outlook.com'
   s.files       = ['lib/', 'modules/', 'examples/', 'bin/', 'README.md']
   s.executables = ["spectr"]
+  s.required_ruby_version = '>= 2.4.2'
   s.homepage    =
-    'http://rubygems.org/gems/spectr'
+    'https://github.com/ParadoXxGER/spectr'
   s.license       = 'MIT'
 end
