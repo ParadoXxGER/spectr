@@ -43,5 +43,5 @@ Usage `spectr PATH`:
 
 ```
 spectr . # Will execute all tests in the current dir
-spectr spec/**/*_spectr.rb # Will execute all tests within all subdirectorys
+spectr examples/* # Will execute all tests within all subdirectorys
 ```
