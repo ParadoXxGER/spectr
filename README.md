@@ -26,7 +26,7 @@ gem 'spectr' ~> '0.0.0'
 Example spec: (examples/integer_spectr.rb)
 Note: Spectr files must end with `_spectr.rb`
 
-```
+``` ruby
 require 'spectr'
 
 Spectr.new.test 'Test the builtin Integer class' do |test|
