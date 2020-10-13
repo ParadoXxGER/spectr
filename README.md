@@ -3,7 +3,7 @@
 ## Micro unit test framework 
 Gem: https://rubygems.org/gems/spectr
 
-Source: https://github.com/ParadoXxGER/spectr
+Source: https://github.com/nhh/spectr
 
 [![Gem Version](https://badge.fury.io/rb/spectr.svg)](https://badge.fury.io/rb/spectr)
 
